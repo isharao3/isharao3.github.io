@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2f6b4999ed.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <p>Resume</p>
+      <ul id="sidemenu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+      <h1>Hi, I'm <span>Isha V Rao</span></h1>
+      <p>Student at PES University</p>
+    </div>
+  </div>
+</div>
+<!----------------------------about--------------------------->
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <img src="images/user.heic">
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>I'm a passionate and dedicated Computer Science student at PES University, Bangalore, with a strong enthusiasm for coding and a quick grasp of complex topics. Focused on leveraging my programming prowess in areas such as Data Analysis, Artificial Intelligence (AI), and Machine Learning (ML). Known for a relentless work ethic and the ability to swiftly adapt to new challenges. Eager to contribute my skills and fast learning abilities to dynamic projects in the ever-evolving tech landscape.</p>
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+          <p class="tab-links" onclick="opentab('interests')">Interests</p>
+          <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>Software Development</span><br>Python, C, Java</li>
+            <li><span>Web Development</span><br>HTML, CSS, JavaScript (fundamentals)</li>
+            <li><span>Data Analytics</span><br>Tools and libraries for data analysis</li>
+            <li><span>Algorithm Design</span><br>Basics of algorithms and data structures</li>
+            <li><span>Problem Solving</span><br>Analytical thinking to resolve complex issue</li>
+            <li><span>Sql</span><br>Writing efficient querries</li>
+            
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="interests">
+          <ul>
+            <li><span>Data Analytics Enthusiast</span><br>Profecient in Python libraries for analysing data</li>
+            <li><span>Machine Intelligence Enthusiast</span><br>Familiar with Machine Learning algorithms</li>
+            
+          </ul>
+        </div>
+
+        <div class="tab-contents" id="education">
+          <ul>
+            <li><span>2019</span><br>ICSE 10th from Ryan International School Bangalore</li>
+            <li><span>2021</span><br>PU 12th from Excellent PU College Moodbidri</li>
+            <li><span>2025</span><br>Btech CSE from PES University Bangalore</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!---------------------------------Projects----------------------------------->
+<div id="projects">
+  <div class="container">
+    <h1 class="sub-title">My Projects</h1>
+    <div class="projects-list">
+      <div>
+        <i class="fa-solid fa-database"></i>
+        <h2>Employee Management System</h2>
+        <p>The Employee Management System, developed using SQL and Python, aims to streamline employee administration tasks within organizations. 
+
+          This includes attendance tracking, leave management, record-keeping, managerial oversight, and performance reviews, providing a comprehensive solution for managing employees efficiently within organizations.
+          </p>
+        <a href=" https://github.com/isharao3 .">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-magnifying-glass-chart"></i>
+        <h2>Stock Market Prediction on kaggle</h2>
+        <p>This project/hacaton involved analyzing a specific stock's performance to aid High Net-worth Individuals (HNIs) in optimizing investment decisions. With a dual objective of accurately predicting closing prices and recommending Buy, Hold, or Sell strategies, we leveraged Symmetric Mean Absolute Percentage Error (SMAPE) for price accuracy evaluation and Accuracy (1 - Accuracy) for strategy accuracy assessment. Employing advanced statistical and machine learning techniques, alongside Python programming and libraries like NumPy and scikit-learn, we aimed to deliver actionable insights for maximizing returns and mitigating risks in the financial market.</p>
+        <a href=" https://github.com/isharao3 .">Learn more</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-face-smile"></i>
+        <h2>Advanced Multimodal System for Depression Detection and Suicide Prevention</h2>
+        <p>Currently underway, the project focuses on creating an innovative multimodal system for early detection of depression and prevention of suicidal thoughts. By combining facial expression analysis and textual data processing techniques, the system aims to identify signs of depression and suicidal ideation in real-time. </p>
+        <a href=" https://github.com/isharao3 .">Learn more</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!--------------------------------------certifications------------------------->
+
+<div id="certifications">
+  <div class="container">
+    <h1 class="sub-title">My Certifications</h1>
+    <div class="certifications-list">
+      <div class="certificate">
+        <img src="images/c1.png">
+        <div class="layer">
+          <h3>Hackerrank Intermediate problem solving certificate</h3>
+          <p>The HackerRank Intermediate Problem Solving Certificate signifies proficiency in solving intermediate-level programming challenges. It demonstrates strong skills in algorithms, data structures, and problem-solving, making certificate holders stand out in coding interviews and software development roles.</p>
+          <a href="https://www.hackerrank.com/certificates/da6330d29469"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="certificate">
+        <img src="images/c2.png">
+        <div class="layer">
+          <h3>Jira Work Management Fundamentals Badge</h3>
+          <p>The Jira Work Management Fundamentals Badge showcases proficiency in using Jira Work Management, a widely used project management tool. It's valuable for freshers seeking jobs as it demonstrates their ability to effectively organize tasks, collaborate with teams, and manage workflows, key skills sought after by employers.</p>
+          <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<!------------contact----------------->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p> <i class="fa-solid fa-paper-plane"></i> isharao.xx@gmail.com</p>
+        <p> <i class="fa-solid fa-phone"></i> 9972367414</p>
+        <div class="social-icons">
+          <a href="https://github.com/isharao3"><i class="fa-brands fa-github"></i></a>
+          <a href="www.linkedin.com/in/isharao03"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/isharao._"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <a href="images/ISHAVRAO_CV.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="text" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname) {
+    for (var i = 0; i < tablinks.length; i++) {
+      tablinks[i].classList.remove("active-link");
+    }
+
+    for (var i = 0; i < tabcontents.length; i++) {
+      tabcontents[i].classList.remove("active-tab");
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+
+<script>
+  var sidemenu = document.getElementById("sidemenu");
+
+  function openmenu() {
+    sidemenu.style.right = "0";
+  }
+
+  function closemenu() {
+    sidemenu.style.right = "-200px";
+  }
+</script>
+<!--<form name="submit-to-google-sheet">
+  <input name="email" type="email" placeholder="Email" required>
+  <button type="submit">Send</button>
+</form>-->
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbw7v0WB-BVegUkI2oVH76IIQjPjz-C9WKE7xIlQEnPKUHS_PWs-NZbTK2PvjuxZIfyf3w/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg");
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+  </body>
+</html>
